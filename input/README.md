@@ -1,7 +1,7 @@
 ## Please place input files into this folder.
-* Actual stock prices should be labeled as actual.txt
-* Predicted stock prices should be labeled as predicted.txt
-* Window specification file should be labeled as window.txt
+* Actual stock prices should be labeled as actual.txt in a pipe-delimited format
+* Predicted stock prices should be labeled as predicted.txt in a pipe-delimited format
+* Window specification file should be labeled as window.txt.  Window number should be a whole number with NO decimals.
 
 #### actual.txt sample:
 
