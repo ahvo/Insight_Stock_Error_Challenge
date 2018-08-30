@@ -1,18 +1,16 @@
-# Stock Price Prediction Error Tool (Insight Coding Challenge)
+# Stock Price Prediction Error Algorithm (Insight Coding Challenge)
 
-## Tool used to calculate stock prediction error written in Python 3
+## Algorithm used to calculate stock prediction error written in Python 3
 * Compares stocks prices from actual data to predicted data and calculates average error.
-* Calculates average error over a specific sliding time window.
+* Calculates average error over a user-defined sliding time window.
 * Inputs data from actual.txt, predicted.txt, and window.txt and outputs results to comparison.txt
 
 # Usage
 
-Place input files into corresponding folder.
-```
-Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), and specified window number (window.txt) into input folder. 
+### Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), and specified window number (window.txt) into input folder. 
 
-Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. 4.0 instead of 4).
-```
+_Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. 4.0 instead of 4)._
+
 #### actual.txt sample:
 
 ```
@@ -51,10 +49,11 @@ Note: For window number, please DO NOT use decimals to indicate a whole-number (
 
 Execute run.sh in command window using ./run.sh
 ```
-Tool will start running. If there are no errors, "Prediction Validation is Complete." will be outputted.  
+./run.sh
 
-Output file (comparison.txt) will be written to output folder. 
 ```
+Program will start running. If there are no errors, "Prediction Validation is Complete." will be outputted.  
+Output file (comparison.txt) will be written to output folder. 
 
 #### comparison.txt sample:
 
@@ -73,4 +72,4 @@ Output file (comparison.txt) will be written to output folder.
 
 # Additional Notes
 
-Tool was tested using coding challenge's testing suites.  Results are within +- .01 error range presumably due to rounding issues.  Only minor dependancies were utilized to display fundamental coding logic.  Additional error-checks were implemented as well.  Code assumes user will also use same input/output file names and execute code using run.sh.  Thank you for your time and consideration.
+Tool was tested using coding challenge's testing suites.  Results are within +- .01 error range presumably due to rounding issues.  Only minor dependancies were utilized to display fundamental coding logic.  Additional error-checks were implemented as well.  Code assumes user will also use same input/output file names and execute code using run.sh. 
