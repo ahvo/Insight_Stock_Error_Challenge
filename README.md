@@ -7,9 +7,10 @@
 
 # Usage
 
-### Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), and specified window number (window.txt) into input folder. 
-
-_Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. Use 4 instread of 4.0)._
+## Please place input files into input folder.
+* Actual stock prices should be labeled as actual.txt in a pipe-delimited format
+* Predicted stock prices should be labeled as predicted.txt in a pipe-delimited format
+* Window specification file should be labeled as window.txt.  Window number should be a whole number with NO decimals.
 
 #### actual.txt sample:
 
@@ -46,6 +47,7 @@ _Note: For window number, please DO NOT use decimals to indicate a whole-number 
 ```
 4
 ```
+
 
 Execute run.sh in command window using ./run.sh
 ```
