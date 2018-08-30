@@ -10,7 +10,9 @@
 ## Please place input files into input folder.
 * Actual stock prices should be labeled as actual.txt in a pipe-delimited format
 * Predicted stock prices should be labeled as predicted.txt in a pipe-delimited format
-* Window specification file should be labeled as window.txt.  Window number should be a whole number with NO decimals.
+* Window specification file should be labeled as window.txt. 
+
+  _Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. Use 4 instread of 4.0)._ 
 
 #### actual.txt sample:
 
