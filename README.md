@@ -1,4 +1,4 @@
-# Stock Price Prediction Error Algorithm (Insight Coding Challenge)
+# Stock Price Prediction Error Algorithm
 
 ## Algorithm used to calculate stock prediction error written in Python 3
 * Compares stocks prices from actual data to predicted data and calculates average error.
@@ -9,7 +9,7 @@
 
 ### Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), and specified window number (window.txt) into input folder. 
 
-_Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. 4.0 instead of 4)._
+_Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. Use 4 instread of 4.0)._
 
 #### actual.txt sample:
 
