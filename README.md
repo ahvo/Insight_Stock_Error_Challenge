@@ -9,7 +9,9 @@
 
 Place input files into corresponding folder.
 ```
-Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), and specified window number (window.txt) into input folder. Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. 4.0 instead of 4).
+Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), and specified window number (window.txt) into input folder. 
+
+Note: For window number, please DO NOT use decimals to indicate a whole-number (i.e. 4.0 instead of 4).
 ```
 #### actual.txt sample:
 
@@ -49,7 +51,9 @@ Place actual stock prices (actual.txt), predicted stock prices (predicted.txt), 
 
 Execute run.sh in command window using ./run.sh
 ```
-Tool will start running. If there are no errors, "Prediction Validation is Complete." will be outputted.  Output file (comparison.txt) will be written to output folder. 
+Tool will start running. If there are no errors, "Prediction Validation is Complete." will be outputted.  
+
+Output file (comparison.txt) will be written to output folder. 
 ```
 
 #### comparison.txt sample:
